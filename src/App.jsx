@@ -3,10 +3,9 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Hello from "./components/Hello";
-import Dashboard from "./components/Dashboard";
-import Footer from "./components/Footer";
 
+import Footer from "./components/globals/Footer";
+import Homepage from "./components/pages/Homepage";
 // Main App component
 function App() {
   return (
@@ -18,12 +17,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </div>
       </header>
-
-      {/* Hello component */}
-      <Hello />
-
-      {/* Dashboard component */}
-      <Dashboard />
+      {/* Homepage component */}
+      <Homepage />
 
       {/* Footer component */}
       <Footer />
