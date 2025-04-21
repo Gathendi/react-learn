@@ -5,7 +5,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 import Footer from "./components/globals/Footer";
-import Homepage from "./components/pages/Homepage";
+import Homepage from "./topics/01-components/Homepage";
 // Main App component
 function App() {
   return (

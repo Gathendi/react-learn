@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../globals/Button";
+import Button from "../../components/globals/Button";
 
 function Homepage() {
   return (
